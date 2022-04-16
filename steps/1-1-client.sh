@@ -14,6 +14,10 @@ npx --yes create-react-app client --template typescript
 # ```terminal: クライアント
 # shellcheck disable=SC2164 # REMOVE THIS IN aggregate.sh 
 cd client
+npm install
+# ```
+
+# ```terminal: クライアント
 npm set-script client-start "npm run start"
 npm run client-start
 # ```
